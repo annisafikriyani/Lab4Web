@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eksperimen Gabungan Clear & Float</title>
+    <style>
+        .div1 {
+            float: left;
+            width: 80px;
+            height: 40px;
+            background-color: red;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .div2 {
+            float: right; /* Kita buat div2 mengambang ke kanan */
+            width: 80px;
+            height: 40px;
+            background-color: yellow;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .div3 {
+            float: left;
+            width: 80px;
+            height: 40px;
+            background-color: green;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        /* 
+          Eksperimen Gabungan: 
+          Silakan ganti nilai 'clear' di bawah ini (left, right, atau both) 
+          untuk melihat bagaimana Div 4 bereaksi terhadap Div 1 (left) dan Div 2 (right).
+        */
+        .div4 {
+            background-color: blue;
+            clear: both; /* Coba ganti-ganti: "left", "right", atau "both" */
+            float: none;
+            height: 40px;
+            color: white;
+            text-align: center;
+            line-height: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Eksperimen Clear & Float</h1>
+    </header>
+
+    <section>
+        <div class="div1">Div 1 </div>
+        <div class="div2">Div 2 </div>
+        <div class="div3">Div 3 </div>
+        <div class="div4">Div 4 </div>
+    </section>
+
+</body>
+</html>
