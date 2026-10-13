@@ -52,12 +52,12 @@ Praktikum 4 - CSS Lanjutan
    <img width="1917" height="1078" alt="Screenshot 2026-10-13 214922" src="https://github.com/user-attachments/assets/f417cd36-0e69-4899-a1f3-2e9434325b17" />
 
 7. Menambahkan Elemen lainnya pada Main Content
-  <img width="1917" height="801" alt="image" src="https://github.com/user-attachments/assets/70cfea54-2ddf-4efa-a89b-d0bb1fb88beb" />
+     <img width="1917" height="801" alt="image" src="https://github.com/user-attachments/assets/70cfea54-2ddf-4efa-a89b-d0bb1fb88beb" />
 
 8. Menambahkan Content Artikel
    <img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/93658727-34db-40af-9639-5bf415fa169e" />
 
-### tambahan 
+### tugas tambahan 
 9. Tambahan Layout untuk menu About 
     <img width="1915" height="1078" alt="image" src="https://github.com/user-attachments/assets/8393bf84-eee2-44fe-adde-9d839c7c55ef" />
 
