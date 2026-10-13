@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Tambahan: Memanggil font Open Sans agar tampilan teks lebih rapi dan modern -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <style>
+        /* Menerapkan font Open Sans ke seluruh halaman agar seragam dengan gambar */
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 100%;
+        }
+        .contact-form textarea {
+            height: 120px;
+            resize: vertical; /* Tambahan: Supaya kotak pesan hanya bisa ditarik ke bawah, tidak merusak lebar layout */
+        }
+        .contact-form button {
+            background-color: #428bca;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            font-family: 'Open Sans', sans-serif;
+            transition: background 0.2s ease; /* Tambahan: Efek transisi halus saat tombol disentuh mouse */
+        }
+        .contact-form button:hover {
+            background-color: #3071a9;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+
+        <!-- Navigasi -->
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+
+        <!-- Hero Panel -->
+        <section id="hero">
+            <h2>Hubungi Kami</h2>
+            <p>Silakan isi formulir di bawah ini jika ada pertanyaan, saran, atau pesan yang ingin disampaikan.</p>
+        </section>
+
+        <!-- Wrapper Single Layout -->
+        <div id="wrapper">
+            <div id="main" style="width: 100%;">
+                
+                <div class="entry">
+                    <h2>Formulir Kontak</h2>
+                    <p>Isi data diri Anda beserta pesan pada kolom di bawah ini:</p>
+                    <br>
+                    
+                    <form action="#" method="POST" class="contact-form">
+                        <label for="nama">Nama Lengkap:</label>
+                        <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda..." required>
+
+                        <label for="email">Alamat Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Masukkan email Anda..." required>
+
+                        <label for="message">Pesan:</label>
+                        <textarea id="message" name="message" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+
+                        <button type="submit">Kirim Pesan</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+
+    </div>
+</body>
+</html>
