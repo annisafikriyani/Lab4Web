@@ -8,7 +8,7 @@ Praktikum 4 - CSS Lanjutan
 1. Persiapan Dokumen HTML Awal
    
    Mempersiapkan text editor (seperti VS Code) dan membuat file HTML dasar dengan nama lab4_box.html. Dokumen ini diisi dengan struktur kerangka standar HTML5 dan sebuah tag header bertuliskan "Box Element".
-<img width="1917" height="1017" alt="Screenshot 2026-10-13 210824" src="https://github.com/user-attachments/assets/e80811a2-eb5d-4992-bd41-043ae1ed25ec" />
+   <img width="1917" height="1017" alt="Screenshot 2026-10-13 210824" src="https://github.com/user-attachments/assets/e80811a2-eb5d-4992-bd41-043ae1ed25ec" />
 
 2. Membuat Box Element dengan Tag div
    
